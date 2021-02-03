@@ -41,6 +41,8 @@ label{display:block;font-size:1.125rem}
     font-family: cursive;
     text-align: start;
     min-height: 40px;
+    text-align:justify;
+    text-align-last:justify;
 }
 .name {
     font-family: auto;
@@ -53,6 +55,8 @@ label{display:block;font-size:1.125rem}
     text-align: center;
     line-height: 1rem;
     color: #f39c12;
+    text-align:justify;
+    text-align-last:justify;
     z-index: 99;
 }
 .red{
