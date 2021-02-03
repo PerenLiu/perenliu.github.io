@@ -22,7 +22,7 @@ label{display:block;font-size:1.125rem}
 	line-height: 40px;
 	vertical-align: top;
 }
-#pr{
+.pr{
     border-radius: 4px;
     border: 1px solid #dcdfe6;
     -webkit-box-sizing: border-box;
@@ -45,31 +45,30 @@ label{display:block;font-size:1.125rem}
     text-align-last:justify;
 }
 .name {
-    font-family: auto;
     display: inline-block;
-    position: absolute;
     left: 0;
     font-size: 1.1rem;
     letter-spacing: 0;
-    top: 25px;
+    top: 27px;
     text-align: center;
-    line-height: 1rem;
+    line-height: 1.1rem;
     color: #f39c12;
-    text-align:justify;
-    text-align-last:justify;
-    z-index: 99;
 }
 .red{
 	color:#e74c3c;
 	display: inline-block;
+    text-align:justify;
+    text-align-last:justify;
 }
 
 .green{
 	color:#2ecc71;
 	display: inline-block;
 	border-right: 1px dashed;
-    margin-left: -1px;
+    margin:0 2px;
     position: relative;
+    text-align:justify;
+    text-align-last:justify;
 }
 #pr:hover{border-color:#c0c4cc}
 .test-5::-webkit-scrollbar{width:15px;height:1px}
@@ -98,7 +97,7 @@ header .title a{color:#2f3e4c;cursor:pointer}
 .search.focus{background-color:var(--theme);box-shadow:0 .5rem .625rem rgba(36,159,253,.30196);transform:scale(1.02)}
 .search.focus input{color:#fff}
 .search.focus input::-webkit-input-placeholder{color:#fff}
-.con{position:relative;margin-top:1.125rem;margin-bottom:3.125rem;padding:1.5625rem 2rem;border:none;border-radius:.5rem;background-color:#fff;box-shadow:.5rem .875rem 2.375rem rgba(39,44,49,.06),.0625rem .1875rem .5rem rgba(39,44,49,.03)}
+.con{position:relative;margin-top:1.125rem;margin-bottom:3.125rem;padding:1.5625rem 1rem;border:none;border-radius:.5rem;background-color:#fff;box-shadow:.5rem .875rem 2.375rem rgba(39,44,49,.06),.0625rem .1875rem .5rem rgba(39,44,49,.03)}
 .con.transparent{background-color:hsla(0,0%,100%,.65)}
 .con .title{position:absolute;top:-1.125rem;left:1.875rem;padding:.5rem .9375rem;border-radius:.5rem;background-color:var(--theme);color:#fff;font-weight:700;font-size:0;cursor:pointer}
 .con .title span{vertical-align:middle;font-size:1.0625rem;line-height:1.25rem}
