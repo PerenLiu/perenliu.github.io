@@ -5,8 +5,8 @@ a{color:#0366d6;text-decoration:none;cursor:alias;word-break:break-all}
 button,input,optgroup,select,textarea{margin:0;font-size:100%;font-family:cursive;line-height:1.15}
 img{background:0 0}
 input{border-radius:0;-webkit-appearance:none}
-.input input{-webkit-appearance:none;background-color:hsla(0, 0%, 100%, 0.5);background-image:none;border-radius:4px;border:1px solid #dcdfe6;-webkit-box-sizing:border-box;box-sizing:border-box;color:#606266;display:inline-block;    font-size: x-large;
-    letter-spacing: 0.5rem;height:40px;line-height:40px;outline:0;padding:0 15px;-webkit-transition:border-color .2s cubic-bezier(.645,.045,.355,1);transition:border-color .2s cubic-bezier(.645,.045,.355,1);width:calc(100% - 4rem)}
+.input input{-webkit-appearance:none;background-color:hsla(0, 0%, 100%, 0.5);background-image:none;border-radius:4px;border:1px solid #dcdfe6;-webkit-box-sizing:border-box;box-sizing:border-box;color:#606266;display:inline-block;    font-size: 1.2rem;
+    letter-spacing: 0.35rem;height:40px;line-height:40px;outline:0;padding:0 15px;-webkit-transition:border-color .2s cubic-bezier(.645,.045,.355,1);transition:border-color .2s cubic-bezier(.645,.045,.355,1);width:calc(100% - 4rem)}
 .input input:hover{border-color:#c0c4cc}
 .input input:focus{border-color:#249ffd;outline:0}
 textarea{border-radius:0;-webkit-appearance:none;width: 100%;}
@@ -29,8 +29,8 @@ label{display:block;font-size:1.125rem}
     box-sizing: border-box;
     color: #606266;
     display: inline-block;
-    font-size: x-large;
-    letter-spacing: 0.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.35rem;
     line-height: 40px;
     outline: 0;
     padding: 0 15px;
@@ -40,16 +40,20 @@ label{display:block;font-size:1.125rem}
     margin: 0;
     font-family: cursive;
     text-align: start;
+    min-height: 40px;
 }
 .name {
     font-family: auto;
     display: inline-block;
     position: absolute;
     left: 0;
-    font-size: small;
+    font-size: 1.1rem;
     letter-spacing: 0;
-    top: 18px;
+    top: 25px;
     text-align: center;
+    line-height: 1rem;
+    color: #f39c12;
+    z-index: 99;
 }
 .red{
 	color:#e74c3c;
